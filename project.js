@@ -16,12 +16,13 @@ fetch('data.json')
                 <br/>
                 <p>
                    ${project.about}
-                   <br/>
-                   Languages: ${project.languages}
+                   <br/><br/>
+                   <b>Languages: ${project.languages}</b>
                 </p>
+                <br/>
                 <a href=${project.github}><img class='icon-sp' src='./assets/github_black.png'/></a>
             </div>
-            <img src=${project.gif}/>`
+            <img src="${project.gif}"/>`
 
     single_project.html(proj);
 

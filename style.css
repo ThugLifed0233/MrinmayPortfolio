@@ -326,13 +326,14 @@ body{
     margin-top:5vh;
     display:flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: center;
     width:100%;
     flex-wrap: wrap;
 }
 .project-card{
-    height:55vh;
+    height:60vh;
     width:45vh;
+    margin:4vh;
     display: flex;
     flex-direction: column;
     background-size: cover;
@@ -377,20 +378,21 @@ body{
 .single-project{
     display:flex;
     flex-direction: row;
-    min-height:76vh;
+    min-height:80vh;
+    margin-top:8vh;
     padding:10vh 0;
     align-items:center;
     justify-content: center;
-    margin-top:9vh;
 }
 .single-project img{
-    width:45vh;
+    width:35vh;
 }
 .icon-sp{
     width:5vh !important;
 }
 .sp-text{
     width:70vh;
+    font-size:17px;
     margin-right:3vh;
 }
 /* Footer */
@@ -459,7 +461,7 @@ footer a:hover{
         width:60vw;
     }
     .single-project img{
-        width: 80%;
+        width: 60%;
     }
 }
 
@@ -501,5 +503,8 @@ footer a:hover{
     .project-card{
         width:auto;
         flex-grow:1;
+    }
+    .sp-text{
+        font-size:16px;
     }
 }
