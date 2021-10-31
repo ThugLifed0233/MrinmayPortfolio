@@ -6,7 +6,6 @@ var user_tag = $('#p-tag')
 var about = $('#about-text')
 var work = $('#work')
 var projects = $('#project-cont')
-var volunteer = $('volunteer')
 var skills = $('#skills-cont')
 var footer = $('#footer')
 var git = $('#github')
@@ -19,22 +18,18 @@ var education = $('#education')
 var certification = $('#certifications')
 var skillsMain = $('#skills')
 var workMain = $('#experiences')
-var volunteerMain = $('#volunteering')
 var projectsMain = $('#projects')
 
-// load json file
 fetch('data.json')
 .then(response=>response.json())
 .then((result)=>{
-    // append data to html
-
-    // user profile data
+    
     user_name.text('I am '+result['profile']['Name'])
     user_tag.text(result['profile']['Headline']+' from '+result['profile']['Location'])
     git.attr("href", result['social'][1])
     lin.attr("href", result['social'][0])
 
-    // about
+
     if(result['about']){ 
         about.text(result['about'])
         navigation.append("<li class='nav-items'><a href='#about'>About</a></li>")
@@ -43,7 +38,6 @@ fetch('data.json')
         aboutMain.remove()
     }
 
-    // education
     if(result['education']){
         result['education'].forEach(element => {
             var edu = `<div class='education-cont'>
@@ -59,7 +53,6 @@ fetch('data.json')
         education.remove()
     }
 
-    // certifications
     if(result['certifications']){
         result['certifications'].forEach(element => {
             var cer = `<div class='education-cont'>
@@ -75,7 +68,6 @@ fetch('data.json')
         certification.remove()
     }
 
-    // skills
     if(result['skills']){
         result['skills'].forEach(element => {
             var skill = ` <li>${element}</li>`
@@ -87,7 +79,6 @@ fetch('data.json')
         skillsMain.remove()
     }
 
-    // experience
     if(result['experience']){
         result['experience'].forEach(element => {
             if(element['Roles']){
@@ -121,54 +112,27 @@ fetch('data.json')
         workMain.remove()
     }
 
-    // projects
-    github_id = result['social'][1].replace('https://github.com/','')
-    fetch(`https://api.github.com/users/${github_id}/repos`)
-    .then(response => response.json())
-    .then(resp => {
-        if(resp.length>0){
-            resp.forEach(element => {        
-                if(element.fork === false){
-                    var project = `<div class='project-card'>
-                                        <b>${element.name}</b>
-                                        <p>Language: ${element.language===null?'Other':element.language}</p>
-                                        ${element.description?`<p class='project-text'>
-                                            ${element.description}
-                                        </p>`:''}
-                                        <a href='${element.html_url}' target='__blank'><img class='icon' src='./assets/github.png'/></a>
-                                    </div>`
-                    projects.append(project)
-                }
-            });
-            navigation.append("<li class='nav-items'><a href='#projects'>Projects</a></li>")
-        } else{
-            projectsMain.remove()
-        }
-    })
-    
-    // volunteering
-    if(result['volunteering']){
-        result['volunteering'].forEach(element => {
-            var volun = `<div class='exp'>
-                            <div class='exp-bullet'></div>
-                            <div class='exp-col'>
-                                ${element['Title']?`<h3>${element['Title']}</h3>`:''}
-                                ${element['Company Name']?`<b>${element['Company Name']}</b>`:''}
-                                ${element['Dates volunteered']?`<p>${element['Dates volunteered']}</p>`:''}
-                                ${element['Description']?`<p>${element['Cause']}: ${element['Description']}</p>`:''}
-                            </div>
-                        </div>`
-            volunteer.append(volun)
+    if(result['projects']){
+        result['projects'].forEach(element => {
+            var project = `<div class='project-card' style='background-image:url(${element.img})'>
+                                <div class='project-inner'>
+                                <b>${element.title}</b>
+                                <p>Languages: ${element.languages===null?'Other':element.languages}</p>
+                                ${element.about?`<p class='project-text'>
+                                    ${element.about.substring(0,80)}...
+                                </p>`:''}
+                                <div class='icons-proj'>
+                                <a href='${element.github}' target='__blank'><img class='icon' src='./assets/github.png'/></a>
+                                <a href='/project.html?id=${element.id}' target='__blank'>View Project</a>
+                                </div>
+                                </div>
+                            </div>`
+            projects.append(project)
         });
-        navigation.append("<li class='nav-items'><a href='#volunteering'>Volunteering</a></li>")
+        navigation.append("<li class='nav-items'><a href='#projects'>Projects</a></li>")
     }
     else {
-        volunteerMain.remove()
+        projectsMain.remove()
     }
-
-    // footer
-    footer.text('Made using ResuME - Website Generator')
+    footer.html('<a href="https://github.com/ishita1805/ResuME" target="__blank">Made using ResuME - Website Generator</a>')
 })
-
-// TODO
-// 1. Check for missing divs and remove them from the website

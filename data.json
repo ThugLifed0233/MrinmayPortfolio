@@ -1,8 +1,8 @@
 {
     "profile": {
-        "Name": "Ishita Kabra",
-        "Headline": "Student Developer | Projects and Events Head at TEC-VIT",
-        "Location": "Delhi, India"
+        "Name": "Mrinmay Date",
+        "Headline": "App Developer",
+        "Location": "Gurugram, India"
     },
     "about": "Skilled in Responsive Web Design, Digital Image Processing, python and Web Development. Strong engineering professional, pursuing Bachelor of Technology - BTech focused in ECE IOT from Vellore Institute of Technology.",
     "education": [
@@ -11,6 +11,38 @@
             "Degree Name": "Bachelor of Technology - BTech",
             "Field Of Study": "ECE IOT",
             "Dates attended or expected graduation": "2018 \u2013 2022"
+        }
+    ],
+    "projects":[
+        {
+            "title":"Demo Project 1",
+            "subtitle":"Demo Subtitle",
+            "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+            "id":1,
+            "languages":"Flutter, Dart",
+            "github":"",
+            "gif":"",
+            "img":"https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
+        },
+        {
+            "title":"Demo Project 2",
+            "subtitle":"Demo Subtitle",
+            "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+            "id":2,
+            "languages":"Flutter, Dart",
+            "github":"",
+            "gif":"",
+            "img":"https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
+        },
+        {
+            "title":"Demo Project 3",
+            "subtitle":"Demo Subtitle",
+            "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+            "id":3,
+            "languages":"Flutter, Dart",
+            "github":"",
+            "gif":"",
+            "img":"https://images.unsplash.com/photo-1593642702749-b7d2a804fbcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
         }
     ],
     "experience": [

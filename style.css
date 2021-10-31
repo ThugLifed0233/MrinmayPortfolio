@@ -331,22 +331,67 @@ body{
     flex-wrap: wrap;
 }
 .project-card{
+    height:55vh;
+    width:45vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+}
+.project-inner{
     padding:2vh;
-    margin-bottom:5vh;
-    width:27vw;
-    border-radius:8px;
-    border:solid 2px var(--border-purple);
+    background: linear-gradient(0deg, rgba(2,7,16,1) 13%, rgba(7,7,7,0.19681375968356096) 100%);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
-.project-card b{
+.project-inner b{
     font-size:18px;
+    margin:0.5vh 0;
 }
-.project-card a{
-   text-decoration:underline;
-   color:white;
-   font-weight:600;
+.project-inner p{
+    margin:0.5vh 0;
+    padding:0;
+    font-weight:500;
+    color:rgb(170, 169, 169);
 }
 .project-text{
-    color:var(--nav-active-purple);
+    font-weight:400 !important;
+    margin-bottom: 2px;
+}
+.icons-proj{
+    display:flex;
+    flex-direction:row;
+    margin:1vh 0;
+    align-items: center;
+}
+.icons-proj a:nth-child(2){
+    padding:1vh;
+    margin-left: 2vh;
+    color: white;
+    background:#49494933;
+    border:solid 2px rgb(218, 218, 218);
+
+}
+/* Single Project */
+.single-project{
+    display:flex;
+    flex-direction: row;
+    min-height:76vh;
+    padding:10vh 0;
+    align-items:center;
+    justify-content: center;
+    margin-top:9vh;
+}
+.single-project img{
+    width:45vh;
+}
+.icon-sp{
+    width:5vh !important;
+}
+.sp-text{
+    width:70vh;
+    margin-right:3vh;
 }
 /* Footer */
 footer{
@@ -361,12 +406,41 @@ footer{
 footer span{
     margin-top:1vh;
 }
+footer a{
+    color: black;
+    text-decoration: underline;
+}
+footer a:hover{
+    color: black;
+    text-decoration: underline;
+}
 @media screen and (max-width:1200px){
     .project-card{
         width:40vw;
     }
     .projects-cont{
         width:100%;
+    }
+}
+@media screen and (max-width:1000px){
+    .single-project{
+        flex-direction: column;
+    }
+    .single-project img{
+        width:45vh;
+    }
+    .icon-sp{
+        width:5vh !important;
+    }
+    .sp-text{
+        padding:0 5%;
+        width:90%;
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        text-align: center;
+        margin-right:0;
+        margin-bottom:5vh;
     }
 }
 @media screen and (max-width:900px){
@@ -383,6 +457,9 @@ footer span{
 @media screen and (max-width:800px){
     .project-card{
         width:60vw;
+    }
+    .single-project img{
+        width: 80%;
     }
 }
 
