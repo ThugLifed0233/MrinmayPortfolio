@@ -4,7 +4,7 @@
         "Headline": "Mobile App Developer",
         "Location": "Gurugram, India"
     },
-    "about": "Skilled in Android app development, iOS app development, mobile architecture. Strong engineering professional, pursuing Bachelor of Technology - BTech focused in ECE IOT from Vellore Institute of Technology.",
+    "about": "Skilled in Android app development, iOS app development, mobile architecture with good experience in finance and legalities .Strong engineering professional,  pursuing Bachelor of Technology - BTech focused in ECE IOT from Vellore Institute of Technology.",
     "education": [
         {
             "Institute": "Vellore Institute of Technology",
@@ -87,30 +87,36 @@
             ]
         },
         {
-            "Role": "MERN Stack Trainer",
-            "Dates Employed": "Mar 2021 \u2013 May 2021",
-            "Employment Duration": "3 mos",
-            "Company Name": "Codebugged AI"
+            "Role": "Product Manager & PM mentor for forums",
+            "Dates Employed": "Aug 2020" ,
+            "Employment Duration": "1 yrs 3 mos",
+            "Company Name": "C4 Projects"
         },
         {
-            "Role": "Product Development Lead",
-            "Dates Employed": "Mar 2021 \u2013 May 2021",
-            "Employment Duration": "3 mos",
-            "Location": "Mumbai, Maharashtra, India",
-            "Company Name": "HEED India"
+            "Role": "Financial and legal analyst",
+            "Dates Employed": "Jun 2019\u2013 Aug 2020",
+            "Employment Duration": "11 mos",
+            "Location": "Vellore, Tamil Nadu",
+            "Company Name": "C4 Projects"
         },
         {
-            "Role": "Full stack web developer",
-            "Dates Employed": "Nov 2020 \u2013 Apr 2021",
-            "Employment Duration": "6 mos",
+            "Role": "Speaker at Global Developers Summit 2020 (Annual workshop on IoT and Sensors) ",
+            "Dates Employed": "Aug 2020 \u2013 Sep 2020",
+            "Employment Duration": "1 mos",
             "Location": "Gurugram, Haryana, India",
-            "Company Name": "Umbrette"
+            "Company Name": "GDS '20"
         },
         {
-            "Role": "Full Stack Web Developer",
-            "Dates Employed": "Aug 2020 \u2013 Oct 2020",
-            "Employment Duration": "3 mos",
-            "Company Name": "Codebugged AI"
+            "Role": "Team Manager & Event organizer ",
+            "Dates Employed": "May 2019 \u2013 Feb 2021",
+            "Employment Duration": "1 yrs 10 mos",
+            "Company Name": "IEEE - PES"
+        },
+        {
+            "Role": "Arudino and IoT Workshop's speaker ",
+            "Dates Employed": "Feb 2019 \u2013 March 2020",
+            "Employment Duration": "1 mos",
+            "Company Name": "IEEE - PES"
         }
     ],
     "skills": [
@@ -122,6 +128,7 @@
         "NodeRed & Raspberry Pi",
         "JavaScript",
         "Full-Stack Development"
+        
     ],
     "social": [
         "https://www.github.com/ThugLifed0233/",
