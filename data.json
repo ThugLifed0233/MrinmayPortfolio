@@ -1,23 +1,23 @@
 {
     "profile": {
         "Name": "Mrinmay Date",
-        "Headline": "App Developer",
+        "Headline": "Mobile App Developer",
         "Location": "Gurugram, India"
     },
-    "about": "Skilled in Responsive Web Design, Digital Image Processing, python and Web Development. Strong engineering professional, pursuing Bachelor of Technology - BTech focused in ECE IOT from Vellore Institute of Technology.",
+    "about": "Skilled in Android app development, iOS app development, mobile architecture. Strong engineering professional, pursuing Bachelor of Technology - BTech focused in ECE IOT from Vellore Institute of Technology.",
     "education": [
         {
             "Institute": "Vellore Institute of Technology",
             "Degree Name": "Bachelor of Technology - BTech",
-            "Field Of Study": "ECE IOT",
+            "Field Of Study": "Electronics and communications engineering Spec. in IoT & Sensors",
             "Dates attended or expected graduation": "2018 \u2013 2022"
         }
     ],
     "projects":[
         {
-            "title":"Demo Project 1",
-            "subtitle":"Demo Subtitle",
-            "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+            "title":"BMI Calculator",
+            "subtitle":"BMI Calculator for people of all ages. Developed with Flutter",
+            "about":"A completly functional Flutter application that can calculate BMI by recording your weight age and gender",
             "id":1,
             "languages":"Flutter, Dart",
             "github":"",
@@ -25,9 +25,9 @@
             "img":"./assets/bmi.png"
         },
         {
-            "title":"Demo Project 2",
-            "subtitle":"Demo Subtitle",
-            "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+            "title":"Instant Messaging app",
+            "subtitle":"An app which supports both day and night mode.",
+            "about":"Intuitive messaging app UI made for both Day and Night mode, developed with Flutter   ",
             "id":2,
             "languages":"Flutter, Dart",
             "github":"",
@@ -35,9 +35,9 @@
             "img":"./assets/msg.png"
         },
         {
-            "title":"Demo Project 3",
-            "subtitle":"Demo Subtitle",
-            "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+            "title":"Spotify app clone",
+            "subtitle":"Semi-functoinal UI clone of Spotify a popular music streaming app. ",
+            "about":"A clone of Spotify, a popular music streaming service that is avaliable for android and ios devices. This app is able to retrive all assets from the destination. ",
             "id":3,
             "languages":"Flutter, Dart",
             "github":"",
@@ -45,9 +45,9 @@
             "img":"./assets/spotify.png"
         },
         {
-            "title":"Demo Project 4",
-            "subtitle":"Demo Subtitle",
-            "about":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, ",
+            "title":"Youtube (mobile) app clone",
+            "subtitle":"UI clone of Youtube mobile app a popular video streaming app. ",
+            "about":"UI clone of youtube mobile application, that displays the home page and explore page. Developed in Flutter.",
             "id":4,
             "languages":"Flutter, Dart",
             "github":"",
@@ -57,29 +57,30 @@
     ],
     "experience": [
         {
-            "Company Name": "The Electronics Club, VIT",
+            "Company Name": "C4 Projects",
             "Roles": [
                 {
-                    "Title": "Projects and Events Head",
+                    "Title": "Vice President of Operations",
                     "Dates Employed": "Dec 2020 \u2013 Present",
-                    "Employment Duration": "9 mos",
+                    "Employment Duration": "11 mos",
                     "Location": "Vellore, Tamil Nadu, India"
                 },
                 {
-                    "Title": "The Electronics Club, VIT",
-                    "Dates Employed": "Dec 2018 \u2013 Present",
-                    "Employment Duration": "2 yrs 9 mos",
+                    "Title": "Product manager",
+                    "Dates Employed": "August 2020 ",
+                    "Employment Duration": "1 yr 3 mos",
                     "Location": "Vellore, Tamil Nadu"
                 },
                 {
                     "Title": "Core Committee Member",
-                    "Dates Employed": "Sep 2019 \u2013 Present",
-                    "Employment Duration": "2 yrs",
+                    "Dates Employed": "Mar 2020 \u2013 Present",
+                    "Employment Duration": "1 yrs 8 mos",
                     "Location": "Vellore, Tamil Nadu"
                 },
                 {
-                    "Title": "Speaker at Sensored (Annual workshop on IoT and Sensors)",
-                    "Dates Employed": "Sep 2019",
+                    "Title": "Speaker at Global Developers Summit 2020 (Annual workshop on IoT and Sensors)",
+                    "Dates Employed": "Aug 2020",
+                    
                     "Employment Duration": "1 mo",
                     "Location": "Vellore, Tamil Nadu"
                 }
@@ -113,20 +114,17 @@
         }
     ],
     "skills": [
-        "Node.js",
-        "React.js",
+        "Flutter",
+        "Swift",
         "Web Development",
-        "Responsive Web Design",
         "C (Programming Language)",
         "Arduino",
-        "Microsoft Azure",
+        "NodeRed & Raspberry Pi",
         "JavaScript",
-        "Full-Stack Development",
-        "Digital Image Processing",
-        "OpenCV"
+        "Full-Stack Development"
     ],
     "social": [
-        "https://www.linkedin.com/in/ishita-kabra-3b305818b/",
-        "https://github.com/ishita1805"
+        "https://www.github.com/ThugLifed0233/",
+        "https://www.linkedin.com/in/mrinmay-date/"
     ]
 }
